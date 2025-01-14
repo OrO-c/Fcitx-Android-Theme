@@ -42,7 +42,7 @@ const onPropUpdate = (k: string, v: boolean | string) => {
         <table>
             <tbody>
                 <tr>
-                    <th colspan="2">Preference</th>
+                    <th colspan="2">设置</th>
                 </tr>
                 <template v-for="item of entries" :key="item.name">
                     <FormItem v-bind="item" @update="onPropUpdate" />
