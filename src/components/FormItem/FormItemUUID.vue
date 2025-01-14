@@ -25,7 +25,7 @@ const onInput = (e: Event) => {
 
 <template>
     <input :id="name" type="text" :value="value" @click="onClick" @input="onInput">
-    <button @click="newUUID">New UUID</button>
+    <button @click="newUUID">重置UUID</button>
 </template>
 
 <style scoped>
